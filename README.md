@@ -62,14 +62,4 @@ streamlit run app.py
 python -m unittest discover tests
 ```
 
-## Use of AI Tools
-
-AI tools were used during development to assist with code organization, documentation, validation strategy, and the natural-language IPL query assistant.
-
-The dashboard also includes AI-style analytical features:
-
-- AI Generated Insights
-- Ask IPL AI
-- Query Demo
-
-These features are constrained for correctness. The assistant does not hallucinate cricket facts. It detects intent, applies filters, routes the query to deterministic Pandas analytics functions, and returns only dataset-derived results from the Cricsheet IPL dataset. Unsupported questions return an insufficient-data response.
+ted questions return an insufficient-data response.
